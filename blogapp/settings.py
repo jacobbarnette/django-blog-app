@@ -31,6 +31,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:8000",
     ]# Add your host's URL here
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
